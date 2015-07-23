@@ -1,0 +1,22 @@
+{
+  "name": "cidr-in-proxifier",
+  "version": "0.0.1",
+  "description": "A script for covering Converting CIDRs list to configuration file segment of Proxifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wspl/CIDR-in-Proxifier.git"
+  },
+  "author": "Plutonist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wspl/CIDR-in-Proxifier/issues"
+  },
+  "homepage": "https://github.com/wspl/CIDR-in-Proxifier#readme",
+  "dependencies": {
+    "cidr-js": "^2.2.1"
+  }
+}
