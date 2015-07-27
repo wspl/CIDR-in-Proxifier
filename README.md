@@ -1,6 +1,6 @@
 # CIDR-in-Proxifier
 
-A script for covering Converting CIDRs list to configuration file segment of Proxifier.
+A script for covering CIDRs list to configuration file segment of Proxifier.
 
 一个用于将 CIDR 列表文件转换为 Proxifier 配置文件片段的脚本。
 
