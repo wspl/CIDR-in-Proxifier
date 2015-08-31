@@ -13,14 +13,14 @@ http://www.ipdeny.com/ipblocks/data/aggregated/cn-aggregated.zone
 ##如何使用
 
 ```bash
-// 安装 io.js 与 npm
+// 安装 Node.js 与 npm
 // 根据需求修改 index.js 文件中的 CIDR_PATH 和 XML_PATH 两个常量
 
-$ git clone https://github.com/wspl/CIDR-in-Proxifier.git
-$ cd ./CIDR-in-Proxifier
-$ npm install
-$ iojs ./
+git clone https://github.com/wspl/CIDR-in-Proxifier.git
+cd ./CIDR-in-Proxifier
+npm install
+npm start
 
 // 接着，将生成的 xml 文件中的所有内容复制到 Proxifier 配置文件中的 <RuleList> 节点中。
 // PS：Proxifier 配置文件通常在 C:\Users\<用户名>\AppData\Roaming\Proxifier\Profiles
-
+```

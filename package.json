@@ -4,6 +4,7 @@
   "description": "A script for covering Converting CIDRs list to configuration file segment of Proxifier.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/wspl/CIDR-in-Proxifier#readme",
   "dependencies": {
+    "babel": "^5.8.23",
     "cidr-js": "^2.2.1"
   }
 }
