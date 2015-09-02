@@ -5,7 +5,7 @@ A script for coverting CIDRs list to configuration file segment of Proxifier.
 一个用于将 CIDR 列表文件转换为 Proxifier 配置文件片段的脚本。
 
 
-** 注意：本项目提供一个配置文件生成脚本，用于让 Proxifier 用户正常地分流国内和境外流量，以确保国内网站的正常访问！**
+**注意：本项目提供一个配置文件生成脚本，用于让 Proxifier 用户正常地分流国内和境外流量，以确保国内网站的正常访问！**
 
 
 中国大陆IP段CIDR列表地址：（项目中已自带）
