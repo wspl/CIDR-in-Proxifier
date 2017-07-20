@@ -27,17 +27,3 @@ npm start
 // 接着，将生成的 xml 文件中的所有内容复制到 Proxifier 配置文件中的 <RuleList> 节点中。
 // PS：Proxifier 配置文件通常在 C:\Users\<用户名>\AppData\Roaming\Proxifier\Profiles
 ```
-
-
-##T站、F站、Y站 无法访问？
-
-你应该知道的，DNS 污染，但不是用于偷偷嵌入广告的那种。
-
-推荐使用：https://github.com/Noxwizard/dnscrypt-winclient
-
-通过简单的安装，然后就可以通过 Proxifier 访问T站、F站和Y站了！
-
-
-##新的展望
-
-打算将项目用 Babel 与规范的 ES6 重写，配合 @SummerWish 贡献的步进设置源码，以及加入自动检索 Proxifier 配置文件，改写成 npm 全局命令行工具。
